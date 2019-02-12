@@ -4,6 +4,7 @@
 
 ### Game Title
 Civilization VI
+
 https://civilization.com/
 
 ### Rating
