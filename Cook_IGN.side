@@ -1,0 +1,124 @@
+{
+  "id": "6aca4cd7-934e-4669-88c1-32f95cd0513a",
+  "version": "2.0",
+  "name": "Cook_IGN",
+  "url": "https://www.ign.com",
+  "tests": [{
+    "id": "9239ab22-6b4a-48ed-ab37-89594d75d9e3",
+    "name": "Cook_IGN Test 1 ",
+    "commands": [{
+      "id": "69da48cf-1808-48f7-b017-d4d35911c0ec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abaee38e-f25c-4f11-9df1-92e4c4f0b761",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f3eace2-8cbc-44a0-b58e-8abcd39088c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-icon #Rectangle",
+      "targets": [
+        ["css=.search-icon #Rectangle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e42cfdc5-7f06-4cc2-8aa0-c0765ac4fa38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-icon #Rectangle",
+      "targets": [
+        ["css=.search-icon #Rectangle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c9b9f9d-e22b-4b52-b174-65b37c64c909",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=query", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='header-container']/section/section/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11784a8f-750f-4dac-86d4-8e02fafbde21",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=query", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='header-container']/section/section/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "anno 1800"
+    }, {
+      "id": "288d6989-7e66-405e-bc54-57d22d26cb5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-button",
+      "targets": [
+        ["css=.search-button", "css:finder"],
+        ["xpath=//div[@id='header-container']/section/section/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df549f30-ae90-48a1-965c-0a8733c58971",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,198.39999389648438)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d427c969-8ac7-408f-b004-552ed032aa64",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,472)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "634d663e-1410-45a7-b897-d73bff12d383",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-item:nth-child(3) em:nth-child(1)",
+      "targets": [
+        ["css=.search-item:nth-child(3) em:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='search-list']/div[3]/div/div[2]/a/em", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/a/em", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6729f6-b3af-46db-9c6b-a4c26449ad8f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,472.79998779296875)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0d284af8-d012-40e8-a5e9-b342e96e941d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9239ab22-6b4a-48ed-ab37-89594d75d9e3"]
+  }],
+  "urls": ["https://www.ign.com/"],
+  "plugins": []
+}
